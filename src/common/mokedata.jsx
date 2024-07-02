@@ -1,0 +1,688 @@
+
+
+const dataApi = [
+    {
+      info: {
+        id: "731744",
+        name: "Southy Cafe",
+        cloudinaryImageId: "8febdcc128f3e7be17cdf6700dcfc51b",
+        locality: "Chankya Puri",
+        areaName: " Bengali market, Connaught Place",
+        costForTwo: "₹400 for two",
+        cuisines: ["South Indian"],
+        avgRating: 4.1,
+        veg: true,
+        parentId: "471129",
+        avgRatingString: "4.1",
+        totalRatingsString: "100+",
+        sla: {
+          deliveryTime: 32,
+          lastMileTravel: 4.9,
+          serviceability: "SERVICEABLE",
+          slaString: "30-35 mins",
+          lastMileTravelString: "4.9 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-03-21 22:45:00",
+          opened: true,
+        },
+        badges: {},
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "₹125 OFF",
+          subHeader: "ABOVE ₹249",
+          discountTag: "FLAT DEAL",
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-6406fe48-51c7-4979-bf4b-42b0dbdffd45",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/southy-cafe-chankya-puri-bengali-market-connaught-place-delhi-731744",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+    {
+      info: {
+        id: "330141",
+        name: "Love Poori Wala",
+        cloudinaryImageId: "ccspmmtwsj5gmeoxsicn",
+        locality: "Lala Jagan Nath Marg",
+        areaName: "Kamla Nagar",
+        costForTwo: "₹100 for two",
+        cuisines: ["North Indian", "Snacks", "Desserts"],
+        avgRating: 4.1,
+        veg: true,
+        parentId: "13819",
+        avgRatingString: "4.1",
+        totalRatingsString: "1K+",
+        sla: {
+          deliveryTime: 33,
+          lastMileTravel: 4.2,
+          serviceability: "SERVICEABLE",
+          slaString: "30-35 mins",
+          lastMileTravelString: "4.2 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-03-21 23:00:00",
+          opened: true,
+        },
+        badges: {
+          imageBadges: [
+            {
+              imageId: "v1695133679/badges/Pure_Veg111.png",
+              description: "pureveg",
+            },
+          ],
+        },
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {
+              badgeObject: [
+                {
+                  attributes: {
+                    description: "pureveg",
+                    imageId: "v1695133679/badges/Pure_Veg111.png",
+                  },
+                },
+              ],
+            },
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "20% OFF",
+          subHeader: "UPTO ₹50",
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-6406fe48-51c7-4979-bf4b-42b0dbdffd45",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/love-poori-wala-lala-jagan-nath-marg-kamla-nagar-delhi-330141",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+    {
+      info: {
+        id: "675567",
+        name: "Juggernaut",
+        cloudinaryImageId: "1561318fb636d378666d71f4ef534272",
+        locality: "Barakhamba Road",
+        areaName: "Connaught Place",
+        costForTwo: "₹1200 for two",
+        cuisines: [
+          "South Indian",
+          "North Indian",
+          "Fast Food",
+          "Beverages",
+          "Desserts",
+          "Street Food",
+        ],
+        avgRating: 4.3,
+        veg: true,
+        parentId: "111778",
+        avgRatingString: "4.3",
+        totalRatingsString: "100+",
+        sla: {
+          deliveryTime: 36,
+          lastMileTravel: 3.9,
+          serviceability: "SERVICEABLE",
+          slaString: "35-40 mins",
+          lastMileTravelString: "3.9 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-03-22 00:00:00",
+          opened: true,
+        },
+        badges: {},
+        isOpen: true,
+        aggregatedDiscountInfoV2: {},
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-6406fe48-51c7-4979-bf4b-42b0dbdffd45",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/juggernaut-barakhamba-road-connaught-place-delhi-675567",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+    {
+      info: {
+        id: "44972",
+        name: "Om di Hatti(Kamla Nagar)",
+        cloudinaryImageId: "ypoamjz9lkaxlsf6075j",
+        locality: "Shakti Nagar",
+        areaName: "Kamla Nagar",
+        costForTwo: "₹150 for two",
+        cuisines: ["North Indian", "Fast Food", "Snacks"],
+        avgRating: 4.2,
+        veg: true,
+        parentId: "22243",
+        avgRatingString: "4.2",
+        totalRatingsString: "10K+",
+        sla: {
+          deliveryTime: 34,
+          lastMileTravel: 5.8,
+          serviceability: "SERVICEABLE",
+          slaString: "30-35 mins",
+          lastMileTravelString: "5.8 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-03-21 20:30:00",
+          opened: true,
+        },
+        badges: {
+          imageBadges: [
+            {
+              imageId: "v1695133679/badges/Pure_Veg111.png",
+              description: "pureveg",
+            },
+          ],
+        },
+        isOpen: true,
+        aggregatedDiscountInfoV2: {},
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {
+              badgeObject: [
+                {
+                  attributes: {
+                    description: "pureveg",
+                    imageId: "v1695133679/badges/Pure_Veg111.png",
+                  },
+                },
+              ],
+            },
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-6406fe48-51c7-4979-bf4b-42b0dbdffd45",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/om-di-hatti-kamla-nagar-shakti-nagar-kamla-nagar-delhi-44972",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+    {
+      info: {
+        id: "817657",
+        name: "Sita Ram Diwan Chand",
+        cloudinaryImageId: "a577d38bbddeec3521692c2c63a4b3e9",
+        locality: "Preet Vihar",
+        areaName: "Shakarpur",
+        costForTwo: "₹150 for two",
+        cuisines: ["Indian"],
+        avgRating: 4,
+        parentId: "496926",
+        avgRatingString: "4.0",
+        totalRatingsString: "100+",
+        sla: {
+          deliveryTime: 36,
+          lastMileTravel: 7.3,
+          serviceability: "SERVICEABLE",
+          slaString: "35-40 mins",
+          lastMileTravelString: "7.3 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-03-21 16:00:00",
+          opened: true,
+        },
+        badges: {},
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "30% OFF",
+          subHeader: "UPTO ₹75",
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        isNewlyOnboarded: true,
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-6406fe48-51c7-4979-bf4b-42b0dbdffd45",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/sita-ram-diwan-chand-preet-vihar-shakarpur-delhi-817657",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+    {
+      info: {
+        id: "45622",
+        name: "Gopal Sweets Corner (Kamla Nagar)",
+        cloudinaryImageId: "ms0fyojyvisrduycbnby",
+        locality: "Kamla Nagar",
+        areaName: "Kamla Nagar",
+        costForTwo: "₹200 for two",
+        cuisines: ["Sweets", "Snacks", "Street Food", "Indian"],
+        avgRating: 4.3,
+        parentId: "89062",
+        avgRatingString: "4.3",
+        totalRatingsString: "10K+",
+        sla: {
+          deliveryTime: 35,
+          lastMileTravel: 5.6,
+          serviceability: "SERVICEABLE",
+          slaString: "35-40 mins",
+          lastMileTravelString: "5.6 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-03-21 23:00:00",
+          opened: true,
+        },
+        badges: {},
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "20% OFF",
+          subHeader: "UPTO ₹50",
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-6406fe48-51c7-4979-bf4b-42b0dbdffd45",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/gopal-sweets-corner-kamla-nagar-kamla-nagar-delhi-45622",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+    {
+      info: {
+        id: "22917",
+        name: "Bangla Foods",
+        cloudinaryImageId: "xquli5h001yj3gheoufz",
+        locality: "Gole Market",
+        areaName: "Connaught Place",
+        costForTwo: "₹250 for two",
+        cuisines: [
+          "North Indian",
+          "South Indian",
+          "Fast Food",
+          "Chinese",
+          "Street Food",
+          "Ice Cream",
+          "Pizzas",
+          "Pastas",
+        ],
+        avgRating: 4.3,
+        parentId: "16153",
+        avgRatingString: "4.3",
+        totalRatingsString: "10K+",
+        sla: {
+          deliveryTime: 36,
+          lastMileTravel: 5.5,
+          serviceability: "SERVICEABLE",
+          slaString: "35-40 mins",
+          lastMileTravelString: "5.5 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-03-21 21:46:00",
+          opened: true,
+        },
+        badges: {},
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "₹125 OFF",
+          subHeader: "ABOVE ₹249",
+          discountTag: "FLAT DEAL",
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-6406fe48-51c7-4979-bf4b-42b0dbdffd45",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/bangla-foods-gole-market-connaught-place-delhi-22917",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+    {
+      info: {
+        id: "253727",
+        name: "McDonald's",
+        cloudinaryImageId: "535fc9f9c135f7982317bbb6a64a1ffc",
+        locality: "Kashmere Gate Metro Station",
+        areaName: "Kashmiri Gate",
+        costForTwo: "₹400 for two",
+        cuisines: ["American"],
+        avgRating: 4.2,
+        parentId: "630",
+        avgRatingString: "4.2",
+        totalRatingsString: "1K+",
+        sla: {
+          deliveryTime: 30,
+          lastMileTravel: 1.7,
+          serviceability: "SERVICEABLE",
+          slaString: "30-35 mins",
+          lastMileTravelString: "1.7 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-03-21 22:45:00",
+          opened: true,
+        },
+        badges: {},
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {},
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "50% OFF",
+          subHeader: "UPTO ₹80",
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-6406fe48-51c7-4979-bf4b-42b0dbdffd45",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/mcdonalds-kashmere-gate-metro-station-kashmiri-gate-delhi-253727",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+    {
+      info: {
+        id: "107452",
+        name: "Chaayos Chai+Snacks=Relax",
+        cloudinaryImageId: "cace805a6ba74137571d0f7ac92302b1",
+        locality: "Kashmere Gate Metro Station",
+        areaName: "Kashmiri Gate",
+        costForTwo: "₹250 for two",
+        cuisines: [
+          "Bakery",
+          "Beverages",
+          "Chaat",
+          "Desserts",
+          "Home Food",
+          "Italian",
+          "Maharashtrian",
+          "Snacks",
+          "Street Food",
+          "Sweets",
+        ],
+        avgRating: 4.5,
+        parentId: "281782",
+        avgRatingString: "4.5",
+        totalRatingsString: "1K+",
+        sla: {
+          deliveryTime: 36,
+          lastMileTravel: 2.9,
+          serviceability: "SERVICEABLE",
+          slaString: "35-40 mins",
+          lastMileTravelString: "2.9 km",
+          iconType: "ICON_TYPE_EMPTY",
+        },
+        availability: {
+          nextCloseTime: "2024-03-21 23:00:00",
+          opened: true,
+        },
+        badges: {
+          textExtendedBadges: [
+            {
+              iconId: "guiltfree/GF_Logo_android_3x",
+              shortDescription: "options available",
+              fontColor: "#7E808C",
+            },
+          ],
+        },
+        isOpen: true,
+        type: "F",
+        badgesV2: {
+          entityBadges: {
+            imageBased: {},
+            textBased: {},
+            textExtendedBadges: {
+              badgeObject: [
+                {
+                  attributes: {
+                    description: "",
+                    fontColor: "#7E808C",
+                    iconId: "guiltfree/GF_Logo_android_3x",
+                    shortDescription: "options available",
+                  },
+                },
+              ],
+            },
+          },
+        },
+        aggregatedDiscountInfoV3: {
+          header: "60% OFF",
+          subHeader: "UPTO ₹120",
+        },
+        orderabilityCommunication: {
+          title: {},
+          subTitle: {},
+          message: {},
+          customIcon: {},
+        },
+        differentiatedUi: {
+          displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+          differentiatedUiMediaDetails: {
+            mediaType: "ADS_MEDIA_ENUM_IMAGE",
+            lottie: {},
+            video: {},
+          },
+        },
+        reviewsSummary: {},
+        displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        restaurantOfferPresentationInfo: {},
+      },
+      analytics: {
+        context: "seo-data-6406fe48-51c7-4979-bf4b-42b0dbdffd45",
+      },
+      cta: {
+        link: "https://www.swiggy.com/restaurants/chaayos-chai-snacks-relax-kashmere-gate-metro-station-kashmiri-gate-delhi-107452",
+        text: "RESTAURANT_MENU",
+        type: "WEBLINK",
+      },
+      widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+    },
+  ];
+
+  export default dataApi;
