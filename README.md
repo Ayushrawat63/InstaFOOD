@@ -1,11 +1,19 @@
-Step1: npm init;
-step2: npm install -D parcel
-step3: npx parcel index.html;   <!-- This step is used to produce development build product -->
-<!-- step3 can be change to npm run start or npm start by changing the package.json file  --> 
-step4: npx build index.html;    <!-- This step is used to produce  producation build product -->
+**-InstaFOOD website**
+- Link: https://instafood64.netlify.app/
+-Key Technologies Used:
+ --**React.js**: Ensures a dynamic and responsive user interface, allowing users to navigate the website effortlessly across various devices.
+ --**Redux**: Manages the global state of the application, particularly for storing cart information, ensuring that users' selections are consistent and accessible throughout their browsing session.
+ --**Real-Time Swiggy API**: Fetches up-to-date restaurant data, including menus, prices, and availability, ensuring that users have access to the latest offerings.
+ 
+-Step1: npm init;
+-step2: npm install -D parcel
+-step3: npx parcel index.html;  
+-<!-- This step is used to produce development build product -->
+-<!-- step3 can be change to npm run start or npm start by changing the package.json file  --> 
+-step4: npx build index.html;    <!-- This step is used to produce  producation build product -->
 
-step5: npm i react
-step6: npm i react-dom
+-step5: npm i react
+-step6: npm i react-dom
 
 
 
