@@ -1,5 +1,6 @@
 **InstaFOOD website**
    # Link: https://instafood64.netlify.app/
+   # To check the live website first install Allow CORS Extension form : https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en-US&utm_source=ext_sidebar
    # Key Technologies Used:
       React.js: Ensures a dynamic and responsive user interface, allowing users to navigate the website effortlessly across various devices.
       Redux: Manages the global state of the application, particularly for storing cart information, ensuring that users' selections are consistent and accessible 
