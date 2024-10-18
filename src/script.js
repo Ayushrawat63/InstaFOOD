@@ -19,6 +19,7 @@ const Grocery = lazy(() => import("./Components/FunctionalComponents/Grocery"));
 const About = lazy(() => import("./Components/ClassComponents/About"));
 
 const AppLayout = () => {
+  
   const [name,setName]=useState();
 
   // Api call
